@@ -38,8 +38,7 @@ class ViewController: UIViewController {
         let firstName = FirstName.text!
         let lastName = LastName.text!
         let tuition = Double(Tuition.text!)
-        let scholarship = Double(Scholarship.text!)
-        
+        let scholarship = Double(Scholarship.text!)        
         
         ResultMessage.text = "Welcome, \(String(firstName)) \(String(lastName))!"
         
